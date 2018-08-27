@@ -4,7 +4,9 @@
 // Press the 'Run' button on the top to start the web server,
 // then click the URL that is emitted to the Output tab of the console
 
-echo "Francisco Hernandez CST 336 site";
+echo "<h1> Francisco Hernandez CST 336 site</h1>";
+
+echo "Test";
 
 ?>
 </body>
