@@ -16,6 +16,7 @@ echo "<br />";
 echo '<a href="/cst336/homework/hw1/home.html"> Homework 1 </a>';
 echo "<br />";
 echo "<br />";
+echo "<br />";
 
 ?>
 </body>
