@@ -1,0 +1,148 @@
+body{
+    background-color:lightgrey;
+   
+ 
+}
+
+header,main,nav,footer{
+    text-align:center;
+    color:black;
+    
+    
+}
+main{
+
+    text-align:center;
+}
+#mainText{
+    color:navy;
+    font-size:2em;
+    text-align:left;
+    display:table-cell;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: navy;
+    background-color:darkgrey;
+}
+#robot{
+    float:right;
+}
+#evoText{
+    color:navy;
+    font-size:1.5em;
+    text-align:left;
+    display: table-cell;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: navy;
+    background-color:darkgrey;
+}
+#et{
+    color:navy;
+    font-family: Satisfy, cursive;
+    font-weight:normal;
+   
+    font-size: 2em;
+    padding:0px;
+    outline-style: solid;
+    outline-color: navy;
+    background-color:darkgrey;
+    
+}
+#exampleText{
+    color:navy;
+    text-align:left;
+    font-size:1em;
+    display: table-cell;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: navy;
+    background-color:darkgrey;
+    
+}
+#exampleText2{
+    text-align: left;
+    font-size:1em;
+    color:navy;
+    display: table-cell;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: navy;
+    background-color:darkgrey;
+
+}
+.bmenu{
+    padding: 0px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.bmenu li{
+    font-size: 1.0em;
+    display: block;
+}
+.bmenu li a{
+	color: black;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 5px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	float: left;
+	padding-right: 150px;
+	padding-left: 50px;
+
+}
+
+.bmenu li a:hover{
+	color: #fff;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}
+.bmenu li a:hover{
+	background: transparent;
+	text-shadow: 1px 1px 10px rgba(89,22,20,0.6);
+	color: #581514;
+}
+#softwareText{
+    color:navy;
+    font-size:1.5em;
+    text-align:left;
+    display: table-cell;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: navy;
+    background-color:darkgrey;
+}
+#softwareText2{
+    color:navy;
+    font-size:1.5em;
+    text-align:left;
+    display: table-cell;
+    padding: 5px;
+    outline-style: solid;
+    outline-color: navy;
+    background-color:darkgrey;
+}
+#ims{
+    float:right;
+    padding-right: 60px;
+}
+#imd{
+    float:right;
+    padding-right: 60px;
+}
+#imo{
+    float:right;
+    padding-right: 60px;    
+}
+#img{
+float:right;
+ 
+}
+#imm{
+    float:right;
+}
