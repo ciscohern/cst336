@@ -6,12 +6,12 @@
 echo "<h1> Francisco Hernandez CST 336 site</h1>";
 echo "<br />";
 
-echo '<a href="/cst336/labs/lab1/h.html"> Lab 1 </a>';
+echo '<a href="/labs/lab1/h.html"> Lab 1 </a>';
 echo "<br />";
 
-echo '<a href="/cst336/labs/lab2/index.php"> Lab 2 </a>';
+echo '<a href="/labs/lab2/index.php"> Lab 2 </a>';
 echo "<br />";
 
-echo '<a href="/cst336/homework/hw1/home.html"> Homework 1 </a>';
+echo '<a href="/homework/hw1/home.html"> Homework 1 </a>';
 echo "<br />";
 ?>
