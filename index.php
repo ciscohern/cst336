@@ -10,7 +10,7 @@ echo '<a href="/labs/lab2/index.php"> Lab 2 </a>';
 echo "<br />";
 echo '<a href="/labs/lab3/silverjack/index.php"> Lab 3 </a>';
 echo "<br />";
-echo '<a href="/labs/lab4/index.php"> Lab 3 </a>';
+echo '<a href="/labs/lab4/index.php"> Lab 4 </a>';
 echo "<br />";
 echo '<a href="/homework/hw1/home.html"> Homework 1 </a>';
 echo "<br />";
