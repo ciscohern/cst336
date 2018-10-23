@@ -12,6 +12,8 @@ echo '<a href="/labs/lab3/silverjack/index.php"> Lab 3 </a>';
 echo "<br />";
 echo '<a href="/labs/lab4/index.php"> Lab 4 </a>';
 echo "<br />";
+echo '<a href="/labs/lab5/scart/index.php"> Lab 5 </a>';
+echo "<br />";
 echo '<a href="/homework/hw1/home.html"> Homework 1 </a>';
 echo "<br />";
 echo '<a href="/homework/hw2/index.php"> Homework 2 </a>';

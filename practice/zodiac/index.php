@@ -12,6 +12,7 @@ function yearList($startYear, $endYear){
        }
        else{
            echo "<li>  Year  $i </li>";
+           echo $animals[$i];
            echo "<img src ='img/$animals[$counter].png> ";
            $count;
        }
@@ -42,7 +43,7 @@ function yearList($startYear, $endYear){
               <input type="number" name="end">
         </form> 
         <ul>
-          <?= yearList(,) ?>
+          <?= yearList($_GET"start",$_GET"end") ?>
         </ul>
         
     </body>
