@@ -1,0 +1,38 @@
+#title{
+    background-color: lightgrey;
+    outline-style: solid;
+    outline-color: navy;
+}
+#teams{
+    background-color: lightgrey;
+    display:table-cell;
+    outline-style: solid;
+    outline-color: navy;
+}
+#names{
+    background-color: lightgrey;
+    display:table-cell;
+    outline-style: solid;
+    outline-color: navy;
+}
+#genders{
+    background-color: lightgrey;
+    display:table-cell;
+    outline-style: solid;
+    outline-color: navy;
+}
+#sports{
+    background-color: lightgrey;
+    display:table-cell;
+    outline-style: solid;
+    outline-color: navy;
+}
+#body{
+    background-image: url("wow.png");
+
+}
+#info{
+    background-color: lightgrey;
+    outline-style: solid;
+    outline-color: navy;
+}
