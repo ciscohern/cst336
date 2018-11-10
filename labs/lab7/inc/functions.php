@@ -8,7 +8,9 @@ function validateSession(){
 }
 
 
+
 function displayAllProducts(){
+    
     global $dbConn;
     
     $sql = "SELECT * FROM om_product ORDER BY productName";
