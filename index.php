@@ -18,9 +18,13 @@ echo '<a href="/labs/lab6/index.php"> Lab 6 </a>';
 echo "<br />";
 echo '<a href="/labs/lab7/index.php"> Lab 7 </a>';
 echo "<br />";
+echo '<a href="/labs/lab8/index.html"> Lab 78 </a>';
+echo "<br />";
 echo '<a href="/homework/hw1/home.html"> Homework 1 </a>';
 echo "<br />";
 echo '<a href="/homework/hw2/index.php"> Homework 2 </a>';
+echo "<br />";
+echo '<a href="/Flower/flowermartcst336/index.php"> Group Project </a>';
 echo "<br />";
 
 ?>
