@@ -24,5 +24,7 @@ echo '<a href="/homework/hw1/home.html"> Homework 1 </a>';
 echo "<br />";
 echo '<a href="/homework/hw2/index.php"> Homework 2 </a>';
 echo "<br />";
+echo '<a href="/flowermartcst336/index.php"> Group Project </a>';
+echo "<br />";
 
 ?>
