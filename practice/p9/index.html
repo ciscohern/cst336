@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title> Holiday Shopping </title>
+    <style>
+        table,
+
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">
+                <center>Holiday Shopping</center>
+            </h1>
+        </div>
+    </div>
+
+    <h1>
+        <center>Cart</center>
+    </h1>
+    <table style="width:30%" align="center" id="table">
+        <tr>
+            <th>Product</th>
+            <th>Unit Price</th>
+            <th>Quantity</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Fruit Cake</td>
+            <td>$30</td>
+            <td><input type="text" id="fquantity" value="0"></td>
+            <td id="fTotal">$0</td>
+        </tr>
+        <tr>
+            <td>Piñata</td>
+            <td>$20</td>
+            <td><input type="text" id="pquantity" value="0"></td>
+            <td id="pTotal">$0</td>
+        </tr>
+        <tr>
+            <td>Shipping</td>
+            <td></td>
+            <td></td>
+            <td id="sTotal">$0</td>
+        </tr>
+        <tr>
+            <td>Tax(10%)</td>
+            <td></td>
+            <td></td>
+            <td id="tTotal">$0</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td></td>
+            <td></td>
+            <td id="total">$0</td>
+        </tr>
+    </table>
+    <center>
+        <button onclick="getQuantity()">Confirm Purchase</button></center>
+
+
+    <script type="text/javascript">
+        var auto_refresh = setInterval(
+            function() {
+                $('#load_tweets').load('file.php').fadeIn("slow");
+            }, 10000); // refresh every 10000 milliseconds
+
+        function getQuantity() {
+            var x = document.getElementById("fquantity").value;
+            var total = document.getElementById("fTotal").innerHTML = parseInt(x) * 30;
+            document.getElementById("fTotal").innerHTML = total;
+
+
+            var y = document.getElementById("pquantity").value;
+            var t = document.getElementById("pTotal").innerHTML = parseInt(y) * 20;
+            document.getElementById("pTotal").innerHTML = t;
+
+            var z = document.getElementById("sTotal").innerHTML = 5;
+            document.getElementById("sTotal").innerHTML = z;
+
+            var All = total + t + z;
+
+            var u = document.getElementById("tTotal").innerHTML = All * .10;
+            document.getElementById("tTotal").innerHTML = u;
+
+            document.getElementById("total").innerHTML = All + u;
+
+
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

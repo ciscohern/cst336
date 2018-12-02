@@ -20,6 +20,8 @@ echo '<a href="/labs/lab7/index.php"> Lab 7 </a>';
 echo "<br />";
 echo '<a href="/labs/lab8/index.html"> Lab 8 </a>';
 echo "<br />";
+echo '<a href="/labs/lab9/index.html"> Lab 9 </a>';
+echo "<br />";
 echo '<a href="/homework/hw1/home.html"> Homework 1 </a>';
 echo "<br />";
 echo '<a href="/homework/hw2/index.php"> Homework 2 </a>';
