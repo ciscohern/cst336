@@ -2,7 +2,7 @@
      //Creating a database connection
      function startConnection($dbname) {
         $host = "localhost";
-        $dbname = "tp_flowers";
+        $dbname = "sneaker_store";
         $username = "root";
         $password = "";
         

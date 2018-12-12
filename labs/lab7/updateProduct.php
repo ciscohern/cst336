@@ -30,7 +30,7 @@ if (isset($_GET['productId'])) {
 
   $productInfo = getProductInfo($_GET['productId']);    
   
- // print_r($productInfo);
+  print_r($productInfo);
     
     
 }
@@ -49,6 +49,7 @@ if (isset($_GET['productId'])) {
         
         <form>
             <input type="hidden" name="productId" value="<?=$productInfo['productId']?>">
+            
            Product name: <input type="text" name="productName" value="<?=$productInfo['productName']?>"><br>
            Description: <textarea name="description" cols="50" rows="4"> <?=$productInfo['productDescription']?> </textarea><br>
            Price: <input type="text" name="price" value="<?=$productInfo['price']?>"><br>
