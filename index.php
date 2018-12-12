@@ -30,5 +30,7 @@ echo '<a href="/homework/hw2/index.php"> Homework 2 </a>';
 echo "<br />";
 echo '<a href="/flowermartcst336/index.php"> Group Project </a>';
 echo "<br />";
+echo '<a href="/FinalProject/index.php"> Final Project </a>';
+echo "<br />";
 
 ?>
