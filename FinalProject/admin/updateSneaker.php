@@ -6,28 +6,19 @@ $dbConn = startConnection("sneaker_store");
 //include '../inc/functions.php';
 //validateSession();
 
-
-
 if (isset($_GET['updateProduct'])){  //user has submitted update form
-
     $sneakerName = $_GET['sneakerName'];
     $description =  $_GET['sneakerDesc'];
     $price =  $_GET['sneakerPrice'];
     $category = $_GET['sneakerBrand'];
-    $Id =  $_GET['shoeID'];
+    $Id =  $_GET['productId'];
     $color = $_GET['sneakerColor'];
     $image = $_GET['sneakerImage'];
     $release = $_GET['sneakerRelease'];
+  
     
-   $sql = "UPDATE sneakers 
-        SET model = :sneakerName,
-            brand= :category,
-            price= :price,
-            description= :description,
-            colorway= :color,
-            releaseDate= :release,
-            image= :image 
-        WHERE shoeID =" . $_GET['productId'];
+    $sql = "UPDATE sneakers SET model = :sneakerName, brand= :category, price = :price, description = :description, 
+    colorway = :color, releaseDate = :release, image = :image WHERE shoeID = " . $Id;
     
     $np = array();
     $np[":sneakerName"] = $sneakerName;
@@ -37,9 +28,10 @@ if (isset($_GET['updateProduct'])){  //user has submitted update form
     $np[":category"] = $category;
     $np[":color"] = $color;
     $np[":release"] = $release;
-    
     $stmt = $dbConn->prepare($sql);
     $stmt->execute($np);
+    echo "<div id='message'>Updated</div>";
+ 
 }
 
 
@@ -60,8 +52,7 @@ if (isset($_GET['productId'])) {
 
   $productInfo = getProductInfo($_GET['productId']);    
   
-  //print_r($productInfo);
-    
+  print_r($productInfo);
     
 }
 
@@ -102,7 +93,7 @@ if (isset($_GET['productId'])) {
 
         <form>
         
-        <input type="hidden" name="productId" value="<?=$productInfo['productId']?>">
+        <input type="hidden" name="productId" value="<?=$productInfo['shoeID']?>">
         
           <div class="form-group mx-sm-3 mb-2">
            Sneaker Model: <input type="text"  name="sneakerName" value="<?=$productInfo['model']?>">

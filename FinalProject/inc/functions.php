@@ -25,8 +25,8 @@ function displayAllProducts(){
         echo "<button type='submit' class='btn btn-warning'>Delete</button>";
         echo "</form>";
         echo "<a><img src=" . $record['image']. "width= 100 height= 100></a>";
-        echo "<a onclick='openModal()' target='productModal'
-        href='flowerInfo.php?sneakerId=".$record['id']."'>".$record['model']."</a>  ";
+        echo "<a 
+        href='#?sneakerId=".$record['id']."'>".$record['model']."</a>  ";
         echo " $" . $record['price']   . "<br><br>";
         
     }

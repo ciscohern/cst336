@@ -1,5 +1,11 @@
 <!--Add main menu here -->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<style type="text/css">
+  #navBar{
+    border-bottom: 1px solid black;
+  }
+  
+</style>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
       <a class="navbar-brand" href="#">" Sold Out "</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
